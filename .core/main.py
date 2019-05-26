@@ -139,7 +139,7 @@ UravxBuCwNMpYWTzKhPH else "("+me.username+")"))
      UravxBuCwNMpYWTzKhco=UravxBuCwNMpYWTzKhPm(UravxBuCwNMpYWTzKhcb.message.reply_markup)
      if UravxBuCwNMpYWTzKhco is not UravxBuCwNMpYWTzKhPH:
       UravxBuCwNMpYWTzKhcg('Sending Command ...')
-      UravxBuCwNMpYWTzKhcy=30
+      UravxBuCwNMpYWTzKhcy=3
       UravxBuCwNMpYWTzKhcD=0
       while UravxBuCwNMpYWTzKhPE:
        (UravxBuCwNMpYWTzKhcd,UravxBuCwNMpYWTzKhcG)=UravxBuCwNMpYWTzKhPR(UravxBuCwNMpYWTzKhco)
