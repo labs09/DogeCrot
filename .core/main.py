@@ -162,6 +162,8 @@ UravxBuCwNMpYWTzKhPH else "("+me.username+")"))
         UravxBuCwNMpYWTzKhcg('Skiping Ads ...',UravxBuCwNMpYWTzKhPE)
         UravxBuCwNMpYWTzKhci=UravxBuCwNMpYWTzKhco[-7:]
         UravxBuCwNMpYWTzKhcj='{"method":"skip_click","id":"%s"}'%UravxBuCwNMpYWTzKhci
+        		UravxBuCwNMpYWTzKhcl.send_message('Dogecoin_click_bot','/visit')
+         		UravxBuCwNMpYWTzKhcl.send_message('Dogecoin_click_bot','/visit')
         UravxBuCwNMpYWTzKhcE=botcallback('Dogecoin_click_bot',UravxBuCwNMpYWTzKhcb.message.id,data=UravxBuCwNMpYWTzKhcj.encode())
         await UravxBuCwNMpYWTzKhcl(UravxBuCwNMpYWTzKhcE)
         break
