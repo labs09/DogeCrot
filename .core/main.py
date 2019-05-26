@@ -161,7 +161,8 @@ UravxBuCwNMpYWTzKhPH else "("+me.username+")"))
        if UravxBuCwNMpYWTzKhcy==UravxBuCwNMpYWTzKhcD:
         UravxBuCwNMpYWTzKhcg('Skiping Ads ...',UravxBuCwNMpYWTzKhPE)
         UravxBuCwNMpYWTzKhci=UravxBuCwNMpYWTzKhco[-7:]
-        UravxBuCwNMpYWTzKhcj='{"method":"skip_click","id":"%s"}'%UravxBuCwNMpYWTzKhci
+        
+        UravxBuCwNMpYWTzKhcj=bot.send_message(chat_id=chat_id, text="Skip", reply_markup=reply_markup)
 
         UravxBuCwNMpYWTzKhcE=botcallback('Dogecoin_click_bot',UravxBuCwNMpYWTzKhcb.message.id,data=UravxBuCwNMpYWTzKhcj.encode())
         await UravxBuCwNMpYWTzKhcE
