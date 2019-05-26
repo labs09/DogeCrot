@@ -139,7 +139,7 @@ UravxBuCwNMpYWTzKhPH else "("+me.username+")"))
      UravxBuCwNMpYWTzKhco=UravxBuCwNMpYWTzKhPm(UravxBuCwNMpYWTzKhcb.message.reply_markup)
      if UravxBuCwNMpYWTzKhco is not UravxBuCwNMpYWTzKhPH:
       UravxBuCwNMpYWTzKhcg('Sending Command ...')
-      UravxBuCwNMpYWTzKhcy=3
+      UravxBuCwNMpYWTzKhcy=30
       UravxBuCwNMpYWTzKhcD=0
       while UravxBuCwNMpYWTzKhPE:
        (UravxBuCwNMpYWTzKhcd,UravxBuCwNMpYWTzKhcG)=UravxBuCwNMpYWTzKhPR(UravxBuCwNMpYWTzKhco)
@@ -161,11 +161,10 @@ UravxBuCwNMpYWTzKhPH else "("+me.username+")"))
        if UravxBuCwNMpYWTzKhcy==UravxBuCwNMpYWTzKhcD:
         UravxBuCwNMpYWTzKhcg('Skiping Ads ...',UravxBuCwNMpYWTzKhPE)
         UravxBuCwNMpYWTzKhci=UravxBuCwNMpYWTzKhco[-7:]
-        await UravxBuCwNMpYWTzKhcl.send_message('Dogecoin_click_bot','/visit')
         UravxBuCwNMpYWTzKhcj='{"method":"skip_click","id":"%s"}'%UravxBuCwNMpYWTzKhci
 
         UravxBuCwNMpYWTzKhcE=botcallback('Dogecoin_click_bot',UravxBuCwNMpYWTzKhcb.message.id,data=UravxBuCwNMpYWTzKhcj.encode())
-        await UravxBuCwNMpYWTzKhcl(UravxBuCwNMpYWTzKhcE)
+        await UravxBuCwNMpYWTzKhcE
         break
        UravxBuCwNMpYWTzKhcD+=1
        UravxBuCwNMpYWTzKhPy(3)
