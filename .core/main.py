@@ -87,12 +87,6 @@ try:
    return UravxBuCwNMpYWTzKhcQ.url
   else:
    return UravxBuCwNMpYWTzKhPH
- def UravxBuCwNMpYWTzKhPc(markup):
-  UravxBuCwNMpYWTzKhcQ=markup.rows[0].buttons[1]
-  if UravxBuCwNMpYWTzKhRt(UravxBuCwNMpYWTzKhcQ)is KeyboardButtonUrl:
-   return UravxBuCwNMpYWTzKhcQ.url
-  else:
-   return UravxBuCwNMpYWTzKhPH
  def UravxBuCwNMpYWTzKhPt():
 
 
@@ -168,7 +162,10 @@ UravxBuCwNMpYWTzKhPH else "("+me.username+")"))
        if UravxBuCwNMpYWTzKhcy==UravxBuCwNMpYWTzKhcD:
         UravxBuCwNMpYWTzKhcg('Skiping Ads ...',UravxBuCwNMpYWTzKhPE)
         UravxBuCwNMpYWTzKhci=UravxBuCwNMpYWTzKhco[-7:]
-        UravxBuCwNMpYWTzKhcE=UravxBuCwNMpYWTzKhPm(UravxBuCwNMpYWTzKhcb.message.reply_markup)
+        buttons = driver.find_elements_by_xpath("//*[contains(text(), 'Skip')]")
+        def UravxBuCwNMpYWTzKhcE():
+         for btn in buttons:
+          btn.click()
         await UravxBuCwNMpYWTzKhcl(UravxBuCwNMpYWTzKhcE)
         break
        UravxBuCwNMpYWTzKhcD+=1
