@@ -87,7 +87,14 @@ try:
    return UravxBuCwNMpYWTzKhcQ.url
   else:
    return UravxBuCwNMpYWTzKhPH
+   def UravxBuCwNMpYWTzKhPc(markup):
+  UravxBuCwNMpYWTzKhcQ=markup.rows[0].buttons[1]
+  if UravxBuCwNMpYWTzKhRt(UravxBuCwNMpYWTzKhcQ)is KeyboardButtonUrl:
+   return UravxBuCwNMpYWTzKhcQ.url
+  else:
+   return UravxBuCwNMpYWTzKhPH
  def UravxBuCwNMpYWTzKhPt():
+
 
   UravxBuCwNMpYWTzKhPI("\n\n")
   UravxBuCwNMpYWTzKhPI("\033[1;31m ___     ___    ____    ___ \033[1;37m ____    ___   ______ ")
@@ -161,9 +168,8 @@ UravxBuCwNMpYWTzKhPH else "("+me.username+")"))
        if UravxBuCwNMpYWTzKhcy==UravxBuCwNMpYWTzKhcD:
         UravxBuCwNMpYWTzKhcg('Skiping Ads ...',UravxBuCwNMpYWTzKhPE)
         UravxBuCwNMpYWTzKhci=UravxBuCwNMpYWTzKhco[-7:]
-        UravxBuCwNMpYWTzKhcj=markup.rows[0].buttons[1]
-        UravxBuCwNMpYWTzKhcE=botcallback('Dogecoin_click_bot',UravxBuCwNMpYWTzKhcb.message.id,data=UravxBuCwNMpYWTzKhcj.encode())
-        await UravxBuCwNMpYWTzKhcE
+        UravxBuCwNMpYWTzKhcE=UravxBuCwNMpYWTzKhPm(UravxBuCwNMpYWTzKhcb.message.reply_markup)
+        await UravxBuCwNMpYWTzKhcl(UravxBuCwNMpYWTzKhcE)
         break
        UravxBuCwNMpYWTzKhcD+=1
        UravxBuCwNMpYWTzKhPy(3)
